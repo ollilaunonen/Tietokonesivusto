@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tietokone Quiz Peli</title>
+    <link rel="stylesheet" href="style2.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  
+    <div class="start_btn"><button>Aloita peli</button></div>
+
+  
+    <div class="info_box">
+        <div class="info-title"><span>Pelin säännöt</span></div>
+        <div class="info-list">
+            <div class="info">1. Vastaus aika on <span>15 sekuntia</span> per kysymys.</div>
+            <div class="info">2. Et voi enää vaihtaa valittua vastausta.</div>
+            <div class="info">3. Et voi enää valita vastausta ajan loppuessa.</div>
+            <div class="info">4. Et voi poistua pelistä kesken pelin.</div>
+            <div class="info">5. Saat pisteitä oikeista vastauksista.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit" href="pelaatietokonevisa.html">Poistu </button>
+            <button class="restart">Pelaa</button>
+        </div>
+    </div>
+
+  
+    <div class="quiz_box">
+        <header>
+            <div class="title">Tietokone Quiz peli</div>
+            <div class="timer">
+                <div class="time_left_txt">Aikaa jäljellä</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                
+            </div>
+            <div class="option_list">
+              
+            </div>
+        </section>
+
+    
+        <footer>
+            <div class="total_que">
+             
+            </div>
+            <button class="next_btn">Seuraava</button>
+        </footer>
+    </div>
+
+ 
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Läpäisit pelin</div>
+        <div class="score_text">
+       
+        </div>
+        <div class="buttons">
+            <button class="restart">Pelaa uudestaan</button>
+            <button class="quit">Sulje peli</button>
+        </div>
+    </div>
+    <footer>
+        <p>Tietokoneen Quiz peli!</p>
+       
+     </footer>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
